@@ -24,6 +24,7 @@ We use CIFAR-10 & CIFAR-100 datasets to train and evaluate our models. You can u
 You can use our code package to train HTNN with ResNet-20, VGG-nagadomi and ConvPool-CNN-C architectures. For example, train HTNN model with ResNet-20 on CIFAR-10:
 
 ```sh
+$ cd src
 $ python train.py --arch='resnet20' --dataset='cifar10'
 ```
 
