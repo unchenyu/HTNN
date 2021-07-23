@@ -42,18 +42,12 @@ $ python quant.py --arch='resnet20' --dataset='cifar10'
 
 ## Evaluate pretrained models
 
-We provide 3 pretrained models for HTNN wtih ResNet-20, VGG-nagadomi and ConvPool-CNN-C architectures respectively.
+We provide pretrained models for HTNN wtih ResNet-20 and ConvPool-CNN-C architectures respectively.
 
 To evaluate HTNN with ResNet-20 on CIFAR-10 dataset, run:
 
 ```sh
 $ python3 eval.py --arch='resnet20' --dataset='cifar10'
-```
-
-To evaluate HTNN with VGG-nagadomi on CIFAR-10 dataset, run:
-
-```sh
-$ python3 eval.py --arch='vggnaga' --dataset='cifar10'
 ```
 
 To evaluate HTNN with ConvPool-CNN-C on CIFAR-100 dataset, run:
