@@ -69,6 +69,7 @@ Our models achieve the following performance:
 
 # Citation
 Please cite our paper if you find our paper useful for your research.
+```
 @inproceedings{chen2021htnn,
   title={HTNN: Deep Learning in Heterogeneous Transform Domains with Sparse-Orthogonal Weights},
   author={Chen, Yu and Liu, Bowen and Abillama, Pierre and Kim, Hun-Seok},
@@ -77,3 +78,4 @@ Please cite our paper if you find our paper useful for your research.
   year={2021},
   organization={IEEE}
 }
+```
